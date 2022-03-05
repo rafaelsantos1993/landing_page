@@ -105,9 +105,7 @@ ul, a{
     height: 90px;
     border-style: solid;
     border-color: #3882F6;
-    border-radius: 10px;
-    
-    
+    border-radius: 10px;   
 }
 .caption{
     display: flex;
@@ -118,5 +116,19 @@ ul, a{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.container_3 {
+    display: flex;
+    min-height: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #E5E7EB;
+    font: italic lighter 26px Georgia, serif; 
+    color: #1F2937;
     
+}
+
+.container_3 p:nth-child(2) {
+    flex: 0.40;
 }
